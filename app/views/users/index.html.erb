@@ -1,0 +1,22 @@
+<div><%= link_to "My Shop", shop_users_path %></div>
+<div>Welcome!</div>
+<div>Balance: Rp. <%= @user[:available_balance]%></div>
+
+<p align="center">
+  You have successfully created your wallet. <br>
+  You can top up your wallet by transferring to the following bank : <br>
+  <b>
+    Bank Name :
+  </b>
+  <%= @transfer_info[:bank_name_full] %> <br>
+
+  <b>
+    Account number :
+  </b>
+  <%= @transfer_info[:bank_account_no] %> <br>
+
+  <b>
+    Account number :
+  </b>
+  <%= @transfer_info[:unique_id] %>
+</p>

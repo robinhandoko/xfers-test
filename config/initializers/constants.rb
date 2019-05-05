@@ -1,0 +1,2 @@
+Xfers.set_api_key '3dehFLadwsxNUWe_sSp5ymBaQJB8yLzPyM1sRgkTDPk'
+Xfers.set_id_sandbox
