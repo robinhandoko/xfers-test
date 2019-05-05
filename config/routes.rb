@@ -6,11 +6,11 @@ Rails.application.routes.draw do
   resources :users do
     collection do
       get 'shop'
-      get 'complete'
     end
 
     member do
       get 'buy'
+      get 'complete'
     end
   end
 end
